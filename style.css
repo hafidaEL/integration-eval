@@ -1,0 +1,94 @@
+body {
+	width: 100%;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+header {
+	height: 600px;
+}
+
+
+header img {
+	margin-top: 100px;
+	width: 400px;
+	height: 500px;
+	margin-left: 300px;
+}
+
+header h1 {
+	line-height: 35px;
+	display: inline-block;
+	margin-top: 170px;
+	vertical-align: top;
+	padding-left: 20px;
+	color: rgb(35,54,57);
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.block1 {
+	margin-top: -100px;
+	width: 100%;
+	height: 400px;
+	background-image: url("images/bg1.jpg");
+}
+
+.triangle {
+	margin-left: 600px;
+	width: 0;
+	height: 0;
+	border-top: 170px solid white;
+	border-right: 170px solid transparent;
+	/*border-bottom: 170px solid transparent;*/
+	border-left: 170px solid transparent;
+}
+
+header .formulaire {
+	width: 300px;
+	position: relative;
+	left: 725px;
+	top:-350px;
+	line-height: 22px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 17px;
+	color: rgb(35,​ 54,​ 57);
+	font-weight: 700;
+}
+
+
+
+#email {
+	margin-top: 10px;
+	
+	width: 300px;
+	height: 60px;
+}
+
+.block2 {
+	background-color: orange;
+}
+
+.block3 {
+	background-color: purple;
+}
+
+.block4 {
+	background-color: red;
+}
+
+.block5 {
+	background-color: blue;
+}
+
+.block6 {
+	background-color: blue;
+}
+
+.block7 {
+	background-color: blue;
+}
+
+.block8 {
+	background-color: blue;
+}
