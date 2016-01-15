@@ -1,6 +1,7 @@
 body {
 	width: 100%;
 	font-family: 'Poppins', sans-serif;
+	overflow-x: hidden;
 }
 
 header {
@@ -29,12 +30,12 @@ header h1 {
 .block1 {
 	margin-top: -100px;
 	width: 100%;
-	height: 400px;
+	height: 500px;
 	background-image: url("images/bg1.jpg");
 }
 
 .triangle {
-	margin-left: 600px;
+	margin-left: 500px;
 	width: 0;
 	height: 0;
 	border-top: 170px solid white;
@@ -55,39 +56,350 @@ header .formulaire {
 	font-weight: 700;
 }
 
-
-
-#email {
+.email {
 	margin-top: 10px;
-	
+	padding-left: 10px;
 	width: 300px;
+	height: 47px;
+	border: 2px solid #e9ebeb;
+
+}
+
+#button_parent{
+	width: 204px;
+  	background: #233639;
+}
+
+.div_boutons {
+	width: 504px;
+	display: inline-block;
+}
+
+.button{
 	height: 60px;
+	margin-top: 15px;
+	color: white;
+  	border: none;
+  	font-family: 'Poppins', sans-serif;
+  	border-radius: 2px;
+  	/*padding: 20px; */
+  	text-align: center;
+  	vertical-align: middle;	
+  	line-height: 25px;
+}
+
+#button_babysitter {
+	width: 234px;
+  	background: #bbc1f5;
+  	
+}
+
+.fa {
+	padding-left: 20px;
+	font-size: 25px;
+	text-align: center;
+}
+
+.block1 h2 {
+	color: #FFFFFF;
+	font-size: 42px;
+	line-height: 55px;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
 }
 
 .block2 {
-	background-color: orange;
+
+	height: 500px;
+	background: url(images/bg2.jpg) center; 
+	background-size: cover;
+}
+
+.block2 h2 {
+   	margin: 0;
+   	position: relative;
+   	top: 115px;
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+}
+
+.block2 p {
+	margin: 0;
+   	position: relative;
+   	top: 130px;
+	font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    /*margin-bottom: 48px;*/
+    text-align: center;
+    }
+
+.block2 button {
+	width: 350px;
+	margin: 0;
+   	position: relative;
+   	top: 150px;
+   	left: 450px;
+	background-color: #BBC1F5;
+	color: white;
+  	border: none;
+  	font-family: 'Poppins', sans-serif;
+  	border-radius: 2px;
+  	padding: 20px; 
+  	
 }
 
 .block3 {
-	background-color: purple;
+	height: 250px;
+	background: url(images/bg4.jpg) center; 
+	background-size: cover;
+}
+
+.block3 h2 {
+	margin: 0;
+   	position: relative;
+   	top: 100px;
+   	text-align: center;
+}
+
+.block3 p {
+	margin: 0;
+   	position: relative;
+   	top: 110px;
+   	text-align: center;
 }
 
 .block4 {
-	background-color: red;
+	height: 500px;
+	width: 100%;
+	background-color: #BBC1F5;
+  
+}
+
+.texte4 {
+	width: 50%;
+	min-height: 100%;
+	float: left;
+}
+
+.image4 {
+	width: 50%;
+	float: left;
+	min-height: 100%;
+	background: url(images/img1.jpg) ;
+	background-size: cover;
+}
+
+.texte4 h2 {
+	color: #fff;
+	margin: 100px 50px 50px 250px;
+}
+
+.texte4 p {
+	color: #fff;
+	margin: 50px 50px 50px 250px;
+}
+
+.trait {
+	width: 120px;
+	height: 5px;
+	background-color: #fff;
+	border: none;
 }
 
 .block5 {
-	background-color: blue;
+	height: 420px;
+	width: 100%;
+	background-color: #BBC1F5;
+  
 }
 
+.texte5 {
+	width: 50%;
+	min-height: 100%;
+	float: left;
+	background-color: white;
+}
+
+.texte5 h2 {
+	color: #233639;
+	margin: 40px 150px 20px 40px;
+}
+
+.texte5 p {
+	 margin-left: 40px;
+}
+
+
+.texte5 p i{
+	color: #32fbed;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.texte5 ul {
+	margin-left: 25px;
+	line-height: 40px;
+}
+
+.image5 {
+	width: 50%;
+	float: left;
+	min-height: 100%;
+	background: url(images/img2.jpg);
+	background-size: 100% 100%;
+}
+
+
 .block6 {
-	background-color: blue;
+	height: 300px;
+	background: url(images/bg3.jpg) center; 
+	background-size: cover;
+}
+
+.block6 h3 {
+	margin: 0;
+	position: relative;
+	top: 50px;
+	left: 250px;
+	color: white;
+}
+
+.block6 hr{
+	margin-left: 0;
+	position: relative;
+	top: 70px;
+	left: 250px;
+}
+
+.block6 p{
+	margin-left: 0;
+	position: relative;
+	top: 80px;
+	left: 250px;
+	color: white;
 }
 
 .block7 {
-	background-color: blue;
+	height: 350px;
+	width: 100%;
+	background-color: #32FBED;
+}
+
+.block7 h3 {
+	height: 300px;
+	float: left;
+	color: white;
+	position: relative;
+	top: 125px;
+	left: 300px;
+	font-size: 25px;
+	font-weight: bold;
+}	
+
+.block7 img {
+	height: 90%;
+	float: left;
+	position: relative;
+	top: 20px;
+	left: 350px;
+}
+
+.block7 p {
+	float: left;
+	color: white;
+	position: relative;
+	top: 110px;
+	left: 400px;
+	line-height: 35px;
+}
+
+.block7 p strong {
+	font-weight: bold;
+	font-size: 50px;
 }
 
 .block8 {
-	background-color: blue;
+	clear: both;
+	height: 450px;
+	width: 100%;
+	background-color: #BBC1F5;
+  
 }
+
+.block8 h3 {
+	margin: 0;
+	position: relative;
+	top: 50px;
+	left: 250px;
+	color: #233639;
+}
+
+.block8 hr{
+	margin-left: 0;
+	position: relative;
+	top: 70px;
+	left: 250px;
+	background-color: #BBC1F5;
+}
+
+.block8 ul {
+	margin-left: 0;
+	position: relative;
+	top: 80px;
+	left: 230px;
+	color: #233639;
+	line-height: 45px;
+}
+
+
+.texte8{
+	width: 50%;
+	min-height: 100%;
+	float: left;
+	background-color: white;
+
+}
+
+.image8{
+	width: 50%;
+	float: left;
+	min-height: 100%;
+	background: url(images/img3.jpg) ;
+	background-size: cover;
+}
+
+.block9 {
+	clear: both;
+	height: 300px;
+	width: 100%;
+	background-color: #F6F6F3;
+  
+}
+
+.block9 h3 {
+	margin: 0;
+	text-align: center;
+	font-size: 20px;
+    color: #233639;
+    position: relative;
+    top: 50px;
+
+}
+
+.block9 input {
+	position: relative;
+	left: 441px;
+	top: 22px;
+	width: 427px;
+	text-align: center;
+}
+
+.block9 .div_boutons {
+	position: relative;
+	left: 440px;
+	top: 18px;
+
+} 
+
